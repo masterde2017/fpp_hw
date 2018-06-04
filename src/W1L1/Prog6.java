@@ -1,3 +1,4 @@
+package W1L1;
 import java.util.Arrays;
 
 public class Prog6 {
