@@ -1,4 +1,4 @@
-package W2L5_1;
+package W2L5.prog_1;
 
 public enum Color {
 	red,blue,green

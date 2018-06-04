@@ -1,4 +1,4 @@
-package W2L5_2;
+package W2L5.prog_2;
 
 import java.time.LocalDate;
 
