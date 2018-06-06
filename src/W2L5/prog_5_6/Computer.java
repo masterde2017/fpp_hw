@@ -1,6 +1,6 @@
 package W2L5.prog_5_6;
 
-public class Computer {
+public class Computer implements Cloneable{
 	private String manufacturer;
 	private String processor;
 	private int ramSize;
@@ -68,6 +68,11 @@ public class Computer {
 		if (ramSize != other.ramSize)
 			return false;
 		return true;
+	}
+	
+	public Computer clone() throws CloneNotSupportedException {
+		return (Computer) super.clone();
+		
 	}
 	
 	

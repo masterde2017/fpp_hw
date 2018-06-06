@@ -11,7 +11,7 @@ public class Person_Deep implements Cloneable{
 	   
 	   public Object clone() throws CloneNotSupportedException {
 		  Person_Deep p=(Person_Deep) super.clone();
-		  p.setComputer(new Computer("mana",  "pro",256,10));
+		  p.setComputer(this.computer.clone());
 		  return p; 
 	   }
 	   
