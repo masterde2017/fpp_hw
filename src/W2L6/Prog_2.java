@@ -16,7 +16,6 @@ public class Prog_2 extends JFrame implements ActionListener {
 			b2,b3,
 			b4,b5,
 			b6,b7;
-	JTextField jf;
    public void function() {
       
 	   Container contentPane;

@@ -23,7 +23,7 @@ public class Prog_1 extends JFrame implements ActionListener  {
     public void function() {
     	Container contentPane;
 
-        setSize      (500,300);
+        setSize      (600,400);
         setResizable (false);
         setTitle     ("String Utility");
         setLocation  (300, 300);
@@ -43,11 +43,11 @@ public class Prog_1 extends JFrame implements ActionListener  {
         inputLabel = new JLabel("Input");
         outputLabel = new JLabel("Output");
         
-        inputLabel.setBounds(260, 75, 80, 25);
+        inputLabel.setBounds(50, 50, 40, 25);
 		outputLabel.setBounds(260, 130, 80, 25);
 
 		  
-		field.setBounds(260, 100, 200, 25);
+		field.setBounds(90, 50, 80, 25);
 		field2.setBounds(260, 160, 200, 25);
 		  
 		button1.setBounds(40, 80, 180, 25);	  
